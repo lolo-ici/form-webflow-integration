@@ -1,16 +1,14 @@
 {
-  "name": "formcrafts",
+  "name": "form-webflow-integration",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "build": "parcel build index.js --out-dir dist --out-file bundle.js",
-    "start": "parcel index.js --open"
+    "start": "parcel index.js --open",
+    "build": "parcel build index.js --dist-dir docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@formcrafts/embed": "^1.0.23"
   },
