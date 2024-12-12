@@ -2,7 +2,6 @@
   "name": "form-webflow-integration",
   "version": "1.0.0",
   "description": "",
-  "main": "bundle.js",
   "scripts": {
     "start": "parcel index.js --open",
     "build": "parcel build index.js --dist-dir docs"
